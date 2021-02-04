@@ -51,6 +51,13 @@ dependencies {
 
     // MySql connector
     testCompile group: 'mysql', name: 'mysql-connector-java', version: '6.0.6'
+
+    // https://mvnrepository.com/artifact/com.github.javafaker/javafaker
+    compile group: 'com.github.javafaker', name: 'javafaker', version: '1.0.2'
+
+    // https://mvnrepository.com/artifact/com.amazonaws/aws-java-sdk-s3
+    compile group: 'com.amazonaws', name: 'aws-java-sdk-s3', version: '1.11.948'
+
 }
 
 webdriverBinaries {
